@@ -1,0 +1,14 @@
+# Compiled executable files
+*.exe
+*.out
+
+# Input/Output files
+input.txt
+output.txt
+
+# Object files
+*.o
+*.obj
+
+# IDE/editor temporary files
+.vscode/
