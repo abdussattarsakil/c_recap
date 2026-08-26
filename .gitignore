@@ -1,14 +1,16 @@
-# Compiled executable files
+# Compiled executables
 *.exe
 *.out
-
-# Input/Output files
-input.txt
-output.txt
+output
+a.out
 
 # Object files
 *.o
 *.obj
 
-# IDE/editor temporary files
+# Program input/output
+input.txt
+output.txt
+
+# VS Code
 .vscode/
