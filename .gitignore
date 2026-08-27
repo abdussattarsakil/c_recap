@@ -1,4 +1,5 @@
 # Compiled executables
+main
 *.exe
 *.out
 output
