@@ -15,13 +15,14 @@ int main()
         {
             if(n%i==0){
                 is_prime=0;
+                break;
             }
         }
     }
     if(!is_prime){
         printf("%d - not a prime number",n);
     }
-    if(is_prime){
+    else{
         printf("%d - prime number",n);
     }
     return 0;
