@@ -22,11 +22,20 @@ int main()
       }
       return 0;
    }
+   if (a > c && b > d)
+   {
+      printf("YES");
+      return 0;
+   }
+   if (a < c && b < d)
+   {
+      printf("NO");
+      return 0;
+   }
    for (int i = 1; i < b; i++)
    {
       ab *= a;
       printf("%d\n",ab);
-      //integer overflow problem
    }
    for (int i = 1; i < d; i++)
    {
@@ -40,5 +49,6 @@ int main()
    {
       printf("NO");
    }
+   printf("%lld\n%lld",ab,cd);
    return 0;
 }
