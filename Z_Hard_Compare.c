@@ -25,6 +25,8 @@ int main()
    for (int i = 1; i < b; i++)
    {
       ab *= a;
+      printf("%d\n",ab);
+      //integer overflow problem
    }
    for (int i = 1; i < d; i++)
    {
