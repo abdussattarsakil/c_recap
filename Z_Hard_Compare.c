@@ -5,11 +5,26 @@ int main()
    scanf("%d %d %d %d", &a, &b, &c, &d);
    long long int ab = a;
    long long int cd = c;
+   if (a == c && b == d)
+   {
+      printf("NO");
+      return 0;
+   }
+   if (b == d)
+   {
+      if (a > c)
+      {
+         printf("YES");
+      }
+      if (a < c)
+      {
+         printf("NO");
+      }
+      return 0;
+   }
    for (int i = 1; i < b; i++)
    {
       ab *= a;
-      printf("%lld\n", ab);
-      //problem long long int 9.22*10^18 er simar bahire chole jay
    }
    for (int i = 1; i < d; i++)
    {
