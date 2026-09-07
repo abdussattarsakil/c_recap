@@ -27,9 +27,8 @@ int main()
     int b = 0;
     for (int i = s + 1; i < length; i++)
     {
-        b *= 10;
-        b += input[i];
-        printf("%d\n",b-48);
+        b = b * 10 + (input[i] - '0');
+        printf("%d\n", b);
     }
     // printf("%d", b-48);
     return 0;
