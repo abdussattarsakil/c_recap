@@ -7,16 +7,27 @@
 //    return 0;
 // }
 
-#include <stdio.h>
-#include <string.h>
+// #include <stdio.h>
+// #include <string.h>
 
-int main()
-{
-   char str1[20] = "Bangladesh";                    // অটোমেটিক '\0' যুক্ত
-   char str2[20] = {'D', 'h', 'a', 'k', 'a', '\0'}; // ম্যানুয়ালি '\0' যুক্ত
+// int main()
+// {
+//    char str1[20] = "Bangladesh";                    // অটোমেটিক '\0' যুক্ত
+//    char str2[20] = {'D', 'h', 'a', 'k', 'a', '\0'}; // ম্যানুয়ালি '\0' যুক্ত
 
-   printf("str1: %s\n", str1); //Bangladesh
-   printf("str2: %s\n", str2);//Dhaka
+//    printf("str1: %s\n", str1); //Bangladesh
+//    printf("str2: %s\n", str2);//Dhaka
 
-   return 0;
-}
+//    return 0;
+// }
+
+//space soho string print
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//    char str[20];
+//    gets(str);
+//    printf("%s",str);
+//    return 0;  
+//}//gets() function-টা C11 standard থেকে remove করা হয়েছে, কারণ এটা unsafe। Buffer overflow হতে পারে।
